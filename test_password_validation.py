@@ -21,5 +21,5 @@ def test_validate_password(value):
 
 
 @pytest.mark.parametrize('value', test_cases_false)
-def test_validate_password(value):
+def test_validate_password1(value):
     assert not password_validation.validate_password(value)
