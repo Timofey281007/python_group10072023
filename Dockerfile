@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "args_seconds.py"]
+CMD ["python", "args_seconds.py", "10"]
